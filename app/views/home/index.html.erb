@@ -1,0 +1,98 @@
+
+<link href="assets/css/style.css" rel="stylesheet" type="text/css" media="all"/>
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:300,600,700,400' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700,800,900' rel='stylesheet' type='text/css'>
+<script type="text/javascript" src="assets/js/jquery.min.js"></script>
+<script type="text/javascript">
+	jQuery(document).ready(function($) {
+			$(".scroll").click(function(event){		
+				event.preventDefault();
+				$('html,body').animate({scrollTop:$(this.hash).offset().top},1200);
+			});
+		});
+</script>   
+  <div class="header" id="home">
+  	  <div class="header_top">
+	   <div class="wrap">
+		 	     <div class="logo">
+						<a href="/">
+							<span style="display: block; font-size: 2.2em; font-weight: 600; margin: 5px 15px; color: white;
+-webkit-transition: all 0.3s ease;-moz-transition: all 0.3s ease;-o-transition: all 0.3s ease;transition: all 0.3s ease;">
+								RockOn 
+								<sub style="font-size: 0.3em; color: #727E8D; opacity: 0.6;">
+									The Social-Music Recommender System
+								</sub>
+							</span>
+						</a>
+					</div>	
+						<div class="menu">
+						    <ul>
+						    	<li class="current"><a href="#section-1" class="scroll">Home</a></li>
+								<li><a href="#section-2" class="scroll">About</a></li>
+								<li><a href="#section-4" class="scroll">Contact</a></li>
+								<li class="login" >
+									<div id="loginContainer"><a href="/signin" id="loginButton"><span> + Login through Facebook</span></a>
+						               </div>
+								   </li>
+								<div class="clear"></div>
+							</ul>
+						</div>							
+	    		 <div class="clear"></div>
+	        </div>
+	    </div>
+	 </div>			      	
+     <div class="main" id="container">
+	 	<div class="content">	
+	 		 <div class="content_top section" id="section-1">  
+	 		     <div class="wrap">                                  		
+            	   <div class="banner_desc">
+            	      <div class="wmuSlider example1">
+							<div class="wmuSliderWrapper">
+							<article><p style="padding:15px; ">Gist: Get music recommendations (with visualization) based on what you like, by logging through facebook </p> <img src="assets/images/image_small.png"  alt="" /> </article>
+							</div>
+                       </div>
+     		 </div>
+                       
+           <div class="about_desc section" id="section-2"> 
+              <div class="wrap">            
+                 	<div class="section group example">
+						<div class="col_1_of_2 span_1_of_2">
+						   <h3>About this app</h3>
+						   <p><span>In one word you can say that this app recognizes which type of music you like and suggests some other music which you may like.</span></p>
+						   <p>Now a days as social media is booming people tend to share a lot about themselves on these social media sites. So, we retreive their music likes and show them what other kind of music they might try and like. Think about it its pretty good to not type all your favourite music when you can get it just by clicking a button and we will get the results for you. Pretty cool right to try this just click on the Big Green button above.</p>
+		 				</div>
+						<div class="col_1_of_2 span_1_of_2">
+						   <h3>About Developer</h3>
+						   <p><span>Hi, My name is Rajeev. Currently a final year student at IIT Kharagpur specializing in Chemical Engineering</span></p>
+						   <p>You might be thinking what does a chemical engineering guy doing developing web apps. Huh! well that is the beauty of present day web wher it doesn't matter which stream you are you can learn and develop cool stuff. Apart from my boring academics I do a lot of Hacking (App development not that wierd hollywood crap). My favourite web frameworks include Ruby on Rails, NodeJS, Django as a matter of fact this website is developed using Ruby on Rails. Ok thats all about me if you ant to get more info you can got my portfolio site (link available in contact section).</p>
+						</div>
+				    </div>	        
+           	  </div>             
+       	  </div>  
+       	 </div>
+      </div>
+     <div class="footer section"  id="section-4">
+     	 <div class="wrap">
+     	 	      <div class="section group example">
+						<div class="col_1_of_2 span_1_of_2">
+							<div class="footer_logo">
+								<span style="display: block; font-size: 2.2em; font-weight: 600; margin: 5px 15px; color: white;
+	-webkit-transition: all 0.3s ease;-moz-transition: all 0.3s ease;-o-transition: all 0.3s ease;transition: all 0.3s ease;">
+									RockOn 
+									<sub style="font-size: 0.3em; color: #727E8D; opacity: 0.6;">
+										The Social-Music Recommender System
+									</sub>
+								</span>
+							</div>
+		 				</div>
+						<div class="col_1_of_2 span_1_of_2">
+						    	<p>You can contact me through my website <a href="http://drreddy.herokuapp.com" target="_blank">drreddy.herokuapp.com</a> .</p>
+				       	   </div>   
+     				 </div>
+     			</div>		
+     		</div>
+     		<div class="copy-right">
+			<div class="wrap">
+				<p class="copy">© 2013 Developed by <a href="http://drreddy.herokuapp.com" target="_blank">drreddy</a>. Template by W3Layouts.</p>
+			</div>
+	  </div>       

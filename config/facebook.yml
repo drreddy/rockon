@@ -1,0 +1,11 @@
+development:
+  app_id: # app_id here
+  secret: # secret here
+
+test:
+  app_id: # app_id here
+  secret: # secret here
+
+production:
+  app_id: # app_id here
+  secret: # secret here
